@@ -26,14 +26,12 @@ p {
 }
 
 ul {
-    list-style-type: none; /* Remove the default dot */
+  list-style-type: none; /* Remove the default dot */
 }
 
 ul li:before {
-    content: '- '; /* Change the content to a dash and a space */
+  content: "- "; /* Change the content to a dash and a space */
 }
-
-
 
 .content {
   display: flex;
@@ -60,7 +58,6 @@ ul li:before {
 .c_exp {
   max-width: 580px;
   margin: 1em auto;
-
 }
 
 .c_exp a.clicked {
@@ -72,10 +69,8 @@ ul li:before {
   cursor: pointer;
 }
 
-
 .bold {
   font-weight: bold;
-
 }
 
 /* IMAGES IMAGES */
@@ -94,7 +89,6 @@ figure img {
   height: auto; /* Maintain aspect ratio */
   margin-top: 1em;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Example shadow values */
-
 }
 
 figcaption {
@@ -111,7 +105,7 @@ figcaption {
   .c_exp,
   .image-container {
     max-width: 90%;
-    margin: 3em auto;
+    margin: 1em auto;
   }
 
   body {
@@ -121,3 +115,4 @@ figcaption {
   .h1 {
     margin: 0.5em auto; /* Adjust margins for smaller headings */
   }
+}
