@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sergi Garriga</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="path/to/your/javascript/file.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+</head>
+
+<body>
+  <header>
+    <h1>project 1</h1>
+  </header>
+  <main>
+    
+    <div class="c_exp">
+    
+    <p>The research delves into the 'nutritional transition' by analyzing documentary and archival sources, particularly focusing on meat consumption trends in Barcelona from the 18th to the 20th century.</p>
+    </div>
+
+<div class="image-container">
+  <figure>
+    <img src="https://via.placeholder.com/600" alt="Placeholder Image">
+    <figcaption>Title for Image 1</figcaption>
+  </figure>
+  <figure>
+    <img src="https://via.placeholder.com/600" alt="Placeholder Image">
+    <figcaption>Title for Image 2</figcaption>
+  </figure>
+  <figure>
+    <img src="https://via.placeholder.com/600" alt="Placeholder Image">
+    <figcaption>Title for Image 3</figcaption>
+  </figure>
+</div>
+
+    <div class="c_exp">
+    <h2>key findings</h2>
+    <p><strong>Evolution of Consumption:</strong> It examines shifts in supply, distribution systems, and changes in meat types and quantities consumed, shedding light on the structural changes in consumption habits.</p>
+<p><strong>Structural Shift:</strong> Confirms a sustained structural change in meat consumption, potentially linked to factors beyond municipal policy, such as railway development and market consolidation.</p>
+<p><strong>Spatial Accessibility & Consumption:</strong> The research links consumers' spatial access to meat with stratified consumption patterns.</p>
+    
+    <h2>challenges</h2>
+    <p><strong>Specificity vs. Generalization:</strong> Addressing the challenges of generalizations within the concept of the 'nutritional transition,' emphasizing the necessity to consider specific historical and geographical contexts.</p>
+      <p><strong>Attribution of Changes:</strong> Difficulties in attributing increased meat consumption solely to municipal policy changes, highlighting a multifactorial complexity.</p>
+      <p><strong>Social Stratification:</strong> Limitations in understanding the stratification of consumption due to insufficient exhaustive social study in documentary sources had to be addressed with indicators of social strata.</p>
+    </div>
+
+    <div class="c_exp">
+      <span id="" style="">Not <a class="clicked" onclick="toggleHiddenText('hiddenText21')">interested</a>?</span>
+      <span id="hiddenText21" style="display: none;">Let's see something <a class="clicked" onclick="toggleHiddenText('hiddenText22')">else</a>!
+        <span id="hiddenText22" style="display: none;">
+          <ul id="" class="" data-type="">
+            <li class="">
+              Project 1 - you are here!
+            </li>
+            <li class="">
+              <a href="">Project 2</a>
+            </li>
+            <li class="">
+              <a href="">Project 3</a>
+            </li>
+          </ul>
+        </span>
+      </span>
+    </div>
+
+    <footer>
+      <h1>...</h1>
+    </footer>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
