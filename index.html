@@ -1,119 +1,86 @@
-header {
-  background-color: #ffddcc;
-  max-width: 580px;
-  margin: 5em auto;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-footer {
-  background-color: #ffddcc;
-  color: white;
-  max-width: 580px;
-  margin: 5em auto;
-}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sergi Garriga</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+</head>
 
-body {
-  font-family: "Open-Sans", sans-serif;
-  font-size: 16px;
-  background-color: #ffddcc;
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
-  letter-spacing: 0.7px;
-}
+<body>
+  <header>
+    <h1></h1>
+  </header>
+  <main>
 
-p {
-  margin: 1rem 0;
-}
+    <div class="c_exp">Hello there!</div>
 
-ul {
-  list-style-type: none; /* Remove the default dot */
-}
+    <div class="c_exp">
+      <span id="" style="">It's <a class="clicked bold" onclick="toggleHiddenText('hiddenText11')"><strong>me</strong></a>.</span>
 
-ul li:before {
-  content: "- "; /* Change the content to a dash and a space */
-}
+      <span id="hiddenText11" style="display: none;">My name is
+        <a class="clicked" onclick="toggleHiddenText('hiddenText12')">Sergi Garriga</a>.
+        <span id="hiddenText12" style="display: none;">I studied Architecture but work as a <a class="clicked" onclick="toggleHiddenText('hiddenText13')">Data Scientist</a>.
+          <span id="hiddenText13" style="display: none;"> My creative space is located close to the vibrant shore of <a class="clicked" onclick="toggleHiddenText('hiddenText14')">Barcelona</a>.
+            <span id="hiddenText14" style="display: none;">From this interconnected location I analyze <a class="clicked" onclick="toggleHiddenText('hiddenText15')">data</a> from around the world.
+              <span id="hiddenText15" style="display: none;">I am deeply moved by data curiosity, systemic design and innovative and aesthetic ways to communicate. These are my three primary <a class="clicked" onclick="toggleHiddenText('hiddenText16')">goals</a> on data:
+                <span id="hiddenText16" style="display: none;">
+                  <ul id="" class="" data-type="">
+                    <li class=""> drive positive change through analysis
 
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: calc(100vh - 62px);
-  margin: 0;
-  padding: 0;
-}
+                    </li>
+                    <li class=""> enhance data with broader context and interconnections.
+                    </li>
+                    <li class=""> resonate with audiences with meaningful understanding. <a onclick="closeSpan(['hiddenText11', 'hiddenText12', 'hiddenText13', 'hiddenText14', 'hiddenText15', 'hiddenText16'])" class="clicked_less">(hide)</a>
+                    </li>
+                  </ul>
+                </span>
+              </span>
+            </span>
+          </span>
+        </span>
+      </span>
+    </div>
 
-.h1 {
-  max-width: 580px;
-  margin: 1em auto;
-}
+    <div class="c_exp">
+      <span id="" style="">My <a class="clicked bold" onclick="toggleHiddenText('hiddenText21')"><strong>work</strong></a> spans data analysis and machine learning. </span>
+      <span id="hiddenText21" style="display: none;">Check it <a class="clicked" onclick="toggleHiddenText('hiddenText22')">out</a>!
+        <span id="hiddenText22" style="display: none;">
+          <ul id="" class="" data-type="">
+            <li class="">
+              <a href="./projects/project_1">Project 1</a>
+            </li>
+            <li class="">
+              <a href="">Project 2</a>
+            </li>
+            <li class="">
+              <a href="">Project 3</a>
+            </li>
+          </ul>
+        </span>
+      </span>
+    </div>
 
-.h2 {
-  margin-top: 1em;
-}
+    <div class="c_exp">
+      <span id="" style="">I am looking forward to hearing from <a class="clicked bold" onclick="toggleHiddenText('hiddenText31')"><strong>you</strong></a>.</span>
+      <span id="hiddenText31" style="display: none;">Don’t hesitate to contact me at:
+        <a class="clicked" onclick="toggleHiddenText('hiddenText32')">sgarriga@gmail.com</a>.
+        <span id="hiddenText32" style="display: none;"> Well... you already know it’s some dummy javascript <a class="clicked" onclick="toggleHiddenText('hiddenText33')">code</a> for fun.
+          <span id="hiddenText33" style="display: none;"> Copy the email and it will be just fine. Cheers! <a onclick="closeSpan(['hiddenText31', 'hiddenText32', 'hiddenText33'])" class="clicked_less">(hide)</a>
+          </span>
+        </span>
+      </span>
+    </div>
 
-.h3 {
-  margin-top: 0.8em;
-}
+    <footer>
+      <h1>...</h1>
+    </footer>
 
-.c_exp {
-  max-width: 580px;
-  margin: 1em auto;
-}
+  </main>
 
-.c_exp a.clicked {
-  cursor: pointer;
-  text-decoration: underline;
-}
+</body>
 
-.c_exp a.clicked_less {
-  cursor: pointer;
-}
-
-.bold {
-  font-weight: bold;
-  color: #003433;
-}
-
-/* IMAGES IMAGES */
-.image-container {
-  max-width: 580px; /* Adjust the width as needed */
-  margin: 1em auto; /* Adjust margin for spacing */
-}
-
-figure {
-  margin: 0;
-}
-
-figure img {
-  display: block;
-  width: 100%; /* Make each image occupy the full width of the container */
-  height: auto; /* Maintain aspect ratio */
-  margin-top: 1em;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Example shadow values */
-}
-
-figcaption {
-  font-size: 12px;
-  margin-top: 0.5em; /* Adjust spacing between image and title */
-}
-
-/* Media queries for responsiveness */
-@media screen and (max-width: 768px) {
-  header,
-  footer,
-  .content,
-  .h1,
-  .c_exp,
-  .image-container {
-    max-width: 90%;
-    margin: 1em auto;
-  }
-
-  body {
-    font-size: 20px; /* Adjust font size for smaller screens */
-  }
-
-  .h1 {
-    margin: 0.5em auto; /* Adjust margins for smaller headings */
-  }
-}
+</html>
